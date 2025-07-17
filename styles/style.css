@@ -282,10 +282,6 @@ header {
     grid-template-columns: 1fr 2fr;
   }
 
-  .content__section-how {
-    grid-template-columns: 1.05fr 2fr;
-  }
-
   .content__section-what {
     padding-block-start: 10px;
     padding-block-end: 31.5px;
