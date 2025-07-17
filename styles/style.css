@@ -6,7 +6,7 @@
   background-attachment: fixed;
 }
 
-header {
+.header {
   position: relative;
   display: grid;
   grid-template-areas:
@@ -14,7 +14,8 @@ header {
     "header_title"
     "header_section";
   padding-inline: var(--padding-project);
-  block-size: min(100vh, 668px);
+  block-size: 100vh;
+  min-block-size: 668px;
   padding-block-start: 10px;
 }
 
@@ -155,6 +156,10 @@ header {
   margin-block-end: 49.5px;
 }
 
+.section {
+  margin-block-end: 49.5px;
+}
+
 .content__title {
   color: var(--text-color-title-content);
   margin-block-end: 20px;
@@ -215,7 +220,8 @@ header {
   display: grid;
   justify-content: center;
   align-items: center;
-  block-size: min(100vh, 668px);
+  block-size: 100vh;
+  min-block-size: 668px;
   padding-block-start: 2px;
 }
 
@@ -230,7 +236,7 @@ header {
   }
 
   .header {
-    block-size: max(100vh, 1024px);
+    block-size: 100vh;
   }
 
   .decorated-zone::after {
@@ -273,7 +279,7 @@ header {
 
   .content {
     padding-block-end: 10px;
-    margin-left: 14px;
+    margin-left: 0;
     padding-right: 5px;
   }
 
@@ -351,7 +357,7 @@ header {
   }
 
   .footer {
-    block-size: max(100vh, 1024px);
+    block-size: 100vh;
     padding-block-start: 17px;
   }
 
@@ -363,7 +369,7 @@ header {
 
 @media (width >= 1024px) {
   .header {
-    block-size: max(100vh, 768px);
+    block-size: 100vh;
   }
 
   .header__theme-menu-list {
@@ -409,6 +415,6 @@ header {
   }
 
   .footer {
-    block-size: max(100vh, 768px);
+    block-size: 100vh;
   }
 }
