@@ -1,9 +1,15 @@
 :root.theme-dark {
-  --main-bg-color: #000028;
-  --accent-color: #ff0070;
-  --text-color: #f1b2ce;
-  --title-color: #db00ff;
-  --background-image: url("../images/cover-image-dark.png");
+  --bg-color: #000028;
+  --bg-image: url(../images/cover-image-dark.png);
+  --decorative-element-color: #ff0070;
+  --menu-button-color: #ff0070;
+  --menu-botton-color-hover: rgb(255 0 112 / 0.4);
+  --text-color-title: #db00ff;
+  --text-color-title-shadow: #ff0070;
+  --text-color-title-content: #ff0070;
+  --bg-color-title-block: #ff0070;
+  --text-color-title-block: #000028;
+  --text-color-block: #f1b2ce;
 }
 
 .theme-dark .decorated-element {

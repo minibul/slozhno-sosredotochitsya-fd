@@ -1,20 +1,15 @@
 :root.theme-light {
-  --main-bg-color: #fff1f7;
-  --accent-color: #ff8dcb;
-  --text-color: #353430;
-  --title-color: #ffc2e6;
-  --background-image: url("../images/cover-image-light.png");
-  --bg-color: var(--main-bg-color);
-  --bg-image: var(--background-image);
+  --bg-color: #fff1f7;
+  --bg-image: url(../images/cover-image-light.png);
   --decorative-element-color: #353430;
   --menu-button-color: #353430;
   --menu-botton-color-hover: rgb(50 49 45 / 0.4);
-  --text-color-title: var(--title-color);
-  --text-color-title-shadow: var(--accent-color);
+  --text-color-title: #ffc2e6;
+  --text-color-title-shadow: #ff8dcb;
   --text-color-title-content: #353430;
-  --bg-color-title-block: var(--accent-color);
+  --bg-color-title-block: #ff8dcb;
   --text-color-title-block: #353430;
-  --text-color-block: var(--text-color);
+  --text-color-block: #353430;
 }
 
 .theme-light .decorated-element {
@@ -23,10 +18,20 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --main-bg-color: #fff1f7;
-    --accent-color: #ff8dcb;
-    --text-color: #353430;
-    --title-color: #ffc2e6;
-    --background-image: url("../images/cover-image-light.png");
+    --bg-color: #fff1f7;
+    --bg-image: url(../images/cover-image-light.png);
+    --decorative-element-color: #353430;
+    --menu-button-color: #353430;
+    --menu-botton-color-hover: rgb(50 49 45 / 0.4);
+    --text-color-title: #ffc2e6;
+    --text-color-title-shadow: #ff8dcb;
+    --text-color-title-content: #353430;
+    --bg-color-title-block: #ff8dcb;
+    --text-color-title-block: #353430;
+    --text-color-block: #353430;
+  }
+
+  .decorated-element {
+    display: none;
   }
 }

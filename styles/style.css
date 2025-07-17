@@ -277,12 +277,7 @@ header {
     padding-right: 5px;
   }
 
-  .content__section-why .content__block {
-    margin-inline-start: 13px;
-  }
-
-  .content__section-why,
-  .content__section-how {
+  .content__section-why {
     display: grid;
     grid-template-columns: 1fr 2fr;
   }
