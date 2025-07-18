@@ -15,7 +15,7 @@
     "header_section";
   padding-inline: var(--padding-project);
   block-size: 100vh;
-  min-block-size: 668px;
+  min-block-size: 691px;
   padding-block-start: 10px;
 }
 
@@ -279,8 +279,6 @@
 
   .content {
     padding-block-end: 10px;
-    margin-left: 15px;
-    padding-right: 5px;
   }
 
   .content__section-why .content__block {
