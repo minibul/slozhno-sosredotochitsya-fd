@@ -15,7 +15,7 @@
     "header_section";
   padding-inline: var(--padding-project);
   block-size: 100vh;
-  min-block-size: 691px;
+  min-block-size: 668px;
   padding-block-start: 10px;
 }
 
@@ -237,6 +237,7 @@
 
   .header {
     block-size: 100vh;
+    min-block-size: 691px;
   }
 
   .decorated-zone::after {
