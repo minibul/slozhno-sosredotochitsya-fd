@@ -279,8 +279,12 @@
 
   .content {
     padding-block-end: 10px;
-    margin-left: 0;
+    margin-left: 15px;
     padding-right: 5px;
+  }
+
+  .content__section-why .content__block {
+    margin-inline-start: 14px;
   }
 
   .content__section-why {
